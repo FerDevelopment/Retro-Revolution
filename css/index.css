@@ -1,5 +1,7 @@
 body{
     border: 0;
+
+
 }
 main
 {
@@ -7,19 +9,35 @@ height: 75%;
 }
 header
 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding-top: 1%;
+    padding-right: 1%;
+    width: 99%;
     height: 10%;
     display: flex;
     flex-wrap: wrap;
     flex-flow: row;
+    justify-content: space-between;
+    background-color: #153448;
+    color: aliceblue;
 
 }
 header input{
     height: 25%;
 
 }
+#inicioSesion>i{
+    padding-right: 1%;
+}
+header img{
+    margin: 0;
+}
 nav
 {
     height: 5%;
+    background-color: #3C5B6F;
 }
 
 footer
@@ -29,5 +47,5 @@ footer
 
 #logo
 {
-    width: 30%;
+    width: 29%;
 }

@@ -1,3 +1,33 @@
 body{
+    border: 0;
+}
+main
+{
+height: 75%;
+}
+header
+{
+    height: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
 
+}
+header input{
+    height: 25%;
+
+}
+nav
+{
+    height: 5%;
+}
+
+footer
+{
+    height: 10%;
+}
+
+#logo
+{
+    width: 30%;
 }

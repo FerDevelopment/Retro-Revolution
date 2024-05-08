@@ -1,49 +1,105 @@
-body{
-    border: 0;
-
-
+body {
+    margin: 0;
 }
-main
-{
-height: 75%;
+
+#logo {
+    width: 29%;
+    margin: 0;
 }
-header
-{
-    position: absolute;
-    top: 0px;
-    left: 0px;
+
+#he {
+
+    margin: 0;
     padding-top: 1%;
     padding-right: 1%;
-    width: 99%;
     height: 10%;
     display: flex;
     flex-wrap: wrap;
     flex-flow: row;
     justify-content: space-between;
     background-color: #153448;
+
     color: aliceblue;
 
-}
-header input{
-    height: 25%;
+
 
 }
 
-header img{
+#inicioSesion {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+
+    gap: 2%;
+    height: 29%;
+    width: 30%;
+}
+
+#inicioSesion input {
+    width: 25%;
+
+}
+
+nav {
+
+    border-top: 10px solid black;
+    border-bottom: 10px solid black;
     margin: 0;
-}
-nav
-{
+    width: 100%;
+    padding: 0;
     height: 5%;
     background-color: #3C5B6F;
+
 }
 
-footer
-{
+nav>ul {
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+
+}
+
+li>a {
+
+    text-decoration: none;
+    color: white;
+}
+
+main {
+
+    text-wrap: balance;
+    height: 75%;
+
+    background-color: #948979;
+}
+
+main * {
+    margin: 0;
+}
+
+article {
+    margin: 0;
+}
+
+#navBackButton {
+
+    position: fixed;
+    bottom: 5%;
+    left: 5%;
+
+    box-shadow: 0 0 1rem #153448;
+}
+
+#navBackButton i {
+
+    height: 1rem;
+}
+
+footer {
     height: 10%;
-}
-
-#logo
-{
-    width: 29%;
+    background-color: #DFD0B8;
 }

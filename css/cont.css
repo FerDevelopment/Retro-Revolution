@@ -1,0 +1,17 @@
+article{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+main{
+    padding: 3%;
+    font-size: 130%;
+}
+
+.deco{
+    width: 20%;
+    font-size: 1rem;
+    color: lightcyan;
+    background-color: #1a4d2e;
+    font-weight: bold;
+}

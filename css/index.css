@@ -1,130 +1,5 @@
-body {
-    margin: 0;
-    font-size: 120%;
-}
 
-#logo {
-    width: 40%;
-    margin: 0;
-    margin-left: 2%;
-
-}
-
-#he {
-
-    margin: 0;
-    padding-top: 1%;
-    padding-right: 1%;
-    height: 10%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-flow: row;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: #F5EFE6;
-
-    color: black;
-
-
-
-}
-
-#inicioSesion {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-
-
-    gap: 2%;
-    height: 29%;
-    width: 30%;
-}
-
-#inicioSesion input {
-    width: 25%;
-
-}
-
-nav {
-
-    border-bottom: 0.3rem solid black;
-    margin: 0;
-    width: 100%;
-    padding: 0;
-    height: 5%;
-    background-color: #E8DFCA;
-
-}
-
-nav>ul {
-    margin: 0;
-    list-style-type: none;
-    display: flex;
-    justify-content: space-evenly;
-    padding-top: 0.5%;
-    padding-bottom: 0.5%;
-
-}
-
-li>a {
-
-    text-decoration: none;
-    color: #1A4D2E;
-    font-weight: bold;
-}
-
-li>a:hover{
-    background-color: #153448;
-    padding: 20%;
-
-    color: white;
-    transform: scale(30%);
-
-}
-
-main {
-
-    text-wrap: balance;
-    height: 75%;
-
-    background-color: #4F6F52;
-}
-
-main * {
-    margin: 0;
-}
-
-article {
-    color: whitesmoke;
-   padding-left: 10%;
-   padding-right: 10%;
-}
-
-#navBackButton {
-
-    position: fixed;
-    bottom: 5%;
-    left: 5%;
-
-    box-shadow: 0 0 1rem #153448;
-}
-
-#navBackButton i {
-
-    height: 1rem;
-}
-
-footer {
-    height: 10%;
-    background-color: #DFD0B8;
-}
-
-.introRev{
-    font-size: 2rem;
-    text-align: center;
-    font-variant: small-caps;
-    font-style: oblique;
-}
+/*----------------------------------------- FATHER -----------------------------------------------------*/
 
 .caja{
     background-color: #1A4D2E;
@@ -140,7 +15,7 @@ footer {
 .box{
     display: flex;
     flex-direction: row;
-    padding-bottom: 2%;
+    padding-bottom: 15%;
     gap: 2%;
 
 }
@@ -149,18 +24,10 @@ footer {
     flex: 1;
 
   }
-.center{
-    text-align: center;
-}
 
 .serv  img{
  width: 100%;
 
-}
-.textIntro{
-font-size: 160%;
-font-style: oblique;
-font-variant: small-caps;
 }
 .contac img{
     width: 100%;
@@ -171,4 +38,9 @@ a{
 }
 .form img{
     width: 100%;
+}
+.item:hover{
+    border: 0.4rem solid yellowgreen;
+    transform: scale(105%);
+
 }

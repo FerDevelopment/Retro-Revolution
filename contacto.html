@@ -1,11 +1,113 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
+<html lang="es">
+  <head>
+    <script
+      src="https://kit.fontawesome.com/deb181e713.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/father.css" />
+    <link rel="stylesheet" href="./css/cont.css" />
+    <link rel="icon" type="image/png" href="fotos/logoRevolution.png" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Retro Revolution</title>
+  </head>
 
-</body>
+  <body>
+    <header id="he">
+      <div id="logos">
+        <img
+          id="logo"
+          alt="Logo RRevolution"
+          src="./fotos/logoRevolution.png"
+        />
+      </div>
+      <div id="inicioSesion">
+        <i class="fa-solid fa-user"></i>
+        <input type="text" placeholder="Usuario" />
+        <i class="fa-solid fa-key"></i>
+        <input type="password" placeholder="Contraseña" />
+        <button type="button" value="Acceder">
+          <i class="fa-solid fa-check" alt="Acceder"></i>
+        </button>
+      </div>
+    </header>
+
+    <nav id="nav">
+      <ul>
+        <li><a href="index.html"> Incio</a></li>
+        <li><a href="servicios.html"> Servicios</a></li>
+        <li><a href="formacion.html"> Formación</a></li>
+        <li><a href="contacto.html"> Contacto</a></li>
+      </ul>
+    </nav>
+    <div id="navBackButton">
+      <a href="#he"><i class="fa-solid fa-arrow-up"></i></a>
+    </div>
+    <main>
+      <article>
+        <p class="textIntro">Contacto</p>
+
+        <p>
+          ¿Tienes alguna consulta o te gustaría solicitar un presupuesto?
+          Completa el siguiente formulario y nos pondremos en contacto contigo a
+          la brevedad. En Retro Evolution, estamos aquí para ayudarte a hacer
+          realidad tus proyectos de reforma con un toque retro o vintage.
+        </p>
+        <br>
+        <form method="post">
+          <label for="nombre">Nombre</label><br />
+          <input type="text" id="nombre" name="nombre" placeholder="Ramon Junior" required /><br /><br />
+
+          <label for="apellidos">Apellidos</label><br />
+          <input
+            type="text"
+            id="apellidos"
+            name="apellidos"
+            placeholder="Matias Mella"
+            required
+          /><br /><br />
+
+          <label for="email">Email</label><br />
+          <input type="email" id="email" name="email" placeholder="example@domain.com" required /><br /><br />
+
+          <label for="telefono">Teléfono</label><br />
+          <input
+            type="tel"
+            id="telefono"
+            name="telefono"
+            placeholder="829 345 1987"
+            required
+          /><br /><br />
+
+          <label for="mensaje">Mensaje:</label><br />
+          <textarea id="mensaje" name="mensaje" rows="4" cols="30" placeholder="Mensaje con lo necesario, como el presupuesto y una idea de mejora" required></textarea
+          ><br /><br />
+
+          <input type="submit" value="Enviar" class="deco"/>
+        </form>
+      </article>
+    </main>
+    <footer>
+      <p>
+        En Retro Evolution, estamos comprometidos contigo y con tu hogar.
+        ¡Déjanos hacer realidad tus sueños de reforma!
+      </p>
+      <p></p>
+      <p>Siguenos en nuestras redes!</p>
+      <ul>
+        <li>
+          <i class="fa-brands fa-instagram"></i>&nbsp;&nbsp;&nbsp;Instagram
+        </li>
+        <li><i class="fa-brands fa-facebook"></i>&nbsp;&nbsp;Facebook</li>
+        <li><i class="fa-brands fa-youtube"></i>&nbsp;&nbsp;Youtube</li>
+        <li><i class="fa-brands fa-linkedin"></i>&nbsp;&nbsp;Linkedin</li>
+        <li><i class="fa-brands fa-tiktok"></i>&nbsp;&nbsp;&nbsp;Tiktok</li>
+        <li><i class="fa-brands fa-github"></i>&nbsp;&nbsp;GitHub</li>
+
+        <li><i class="fa-solid fa-phone"></i>&nbsp;&nbsp;933660300</li>
+        <li><i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;<a href="https://www.google.es/maps/place/41%C2%B023'42.2%22N+2%C2%B009'51.2%22E/@41.3950467,2.1616538,17z/data=!3m1!4b1!4m4!3m3!8m2!3d41.3950467!4d2.1642287?hl=es&entry=ttu">MALLORCA, 277, BAJOS 08037, BARCELONA</a></li>
+      </ul>
+    </footer>
+  </body>
 </html>
